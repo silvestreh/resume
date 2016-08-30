@@ -14,6 +14,8 @@ section {
         height: 80vh;
         margin-top: 2rem;
         transform: translate3d(0, 0, 0);
+        position: relative;
+        z-index: 10;
 
         @include tablet {
             margin: 2rem 2rem 0;

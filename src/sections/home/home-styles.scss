@@ -3,7 +3,41 @@
 @import 'src/stylesheets/modules/mixins';
 
 .home {
-    background: #151515;
+    background: {
+        color: #151515;
+        // image: url('/static/svg/grid.svg');
+        // repeat: no-repeat;
+        // position: center bottom;
+        // size: 100% auto;
+    }
+
+    &::after {
+        animation: grain 5s steps(10) infinite;
+        content: '';
+        position: fixed;
+        width: 300%;
+        height: 300%;
+        left: -100%;
+        top: -100%;
+        opacity: 0.35;
+        pointer-events: none;
+        z-index: 100;
+        background: {
+            color: transparent;
+            image: url('/static/raster/noise.png');
+        }
+    }
+
+    video {
+        pointer-events: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0.25;
+        transform: translate3d(0, 0, 0);
+        z-index: 0;
+    }
 }
 
 .home-nav {
@@ -13,6 +47,8 @@
     margin-top: -2rem;
     font-size: 1.25rem;
     line-height: 3rem;
+    position: relative;
+    z-index: 20;
 
     @include big-desktop {
         font-size: 1.75rem;
