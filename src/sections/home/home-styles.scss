@@ -1,0 +1,42 @@
+@import '~susy';
+@import 'src/stylesheets/modules/colors';
+@import 'src/stylesheets/modules/mixins';
+
+.home-nav {
+    font-family: 'Adam';
+    text-align: center;
+    transform: translateY(-100%);
+    margin-top: -2rem;
+    font-size: 1.25rem;
+    line-height: 3rem;
+
+    @include big-desktop {
+        font-size: 1.75rem;
+    }
+
+    @include phone {
+        transform: none;
+    }
+
+    &__item {
+        display: inline-block;
+        margin: 0 1rem;
+        text-decoration: none;
+        color: $color-text;
+
+        @include phone {
+            display: block;
+        }
+    }
+}
+
+footer {
+    margin: auto auto 1rem;
+    color: #AAA;
+    font-size: 0.75em;
+    text-align: center;
+
+    @include phone {
+        display: none;
+    }
+}

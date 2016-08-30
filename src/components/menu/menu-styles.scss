@@ -1,0 +1,85 @@
+@import '~animate.css';
+@import 'src/stylesheets/modules/colors';
+@import 'src/stylesheets/modules/mixins';
+
+.hamburger-line {
+    width: 1.5rem;
+    height: .125rem;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.navigation {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+
+    @include phone {
+        bottom: 1rem;
+        right: 1rem;
+        top: auto;
+    }
+
+    &__toggler {
+        outline: none;
+        width: 3.5rem;
+        height: 3.5rem;
+        padding: 1rem;
+        line-height: 2.5rem;
+        background: rgba(0, 0, 0, .05);
+        border-radius: 50%;
+    }
+
+    .hamburger-box {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .hamburger-inner {
+        @extend .hamburger-line;
+
+        &::before, &::after {
+            @extend .hamburger-line;
+        }
+
+        &::before {
+            top: -.5rem;
+        }
+
+        &::after {
+            bottom: -.5rem;
+        }
+    }
+
+    &__nav {
+        font-family: 'Adam';
+        position: absolute;
+        right: .5rem;
+        top: 100%;
+        margin-top: 1rem;
+
+        @include phone {
+            top: auto;
+            bottom: 100%;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        &__item {
+            @extend .animated;
+            @extend .fadeInRight;
+            text-align: right;
+            display: block;
+            line-height: 2.5rem;
+            text-decoration: none;
+            animation-duration: 350ms;
+            color: $color-text;
+
+
+            @for $i from 1 through 4 {
+                &:nth-child(#{$i}) {
+                    animation-delay: #{75 * $i}ms;
+                }
+            }
+        }
+    }
+}

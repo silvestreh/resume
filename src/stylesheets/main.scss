@@ -1,0 +1,47 @@
+// Vendor
+@import '~normalize.css';
+@import '~hamburgers';
+@import '~susy';
+
+// Modules
+@import 'src/stylesheets/modules/colors';
+
+// Fonts
+@import 'src/stylesheets/fonts/adam';
+@import 'src/stylesheets/fonts/didactic';
+
+// Misc
+@import 'src/stylesheets/util/clearfix';
+@import 'src/stylesheets/transitions';
+
+$susy: (
+    columns: 12,
+    gutters: 1/4,
+    math: fluid,
+    gutter-position: split,
+    container: 74em,
+    debug: (
+        image: show,
+        color: pink,
+        output: background,
+        toggle: top right,
+    )
+);
+
+:root {
+    font-family: 'Didactic';
+    color: $color-text;
+    -webkit-font-smoothing: antialiased;
+}
+
+#app > section {
+    @extend .clearfix;
+    
+    &:not(.home) {
+        @include container;
+    }
+}
+
+section > div {
+    @include span(4 of 12);
+}
