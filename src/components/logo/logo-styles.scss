@@ -1,0 +1,23 @@
+@import 'src/stylesheets/modules/colors';
+
+.cls-1 {
+    fill: none;
+    stroke: $color-text-alt;
+    stroke-width: 0.125rem;
+    stroke-dasharray: 2150;
+    stroke-dashoffset: 2150;
+    animation: dash 2s linear forwards, hue-stroke 50s linear infinite;
+    animation-delay: 1s;
+}
+
+.cls-2 {
+    fill: #00bcd4;
+}
+
+.cls-3 {
+    fill: #e91e63;
+}
+
+.cls-4 {
+    fill: rgba(255, 255, 255, 0.9);
+}
