@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-        <menu></menu>
         <router-view :is="view"></router-view>
+        <menu></menu>
     </div>
 </template>
 

@@ -6,3 +6,15 @@
 .fade-enter, .fade-leave {
     opacity: 0;
 }
+
+.slide-transition {
+    transform: translateX(0);
+    transition: transform 250ms, opacity 250ms;
+    opacity: 1;
+    will-change: transform;
+}
+
+.slide-enter, .slide-leave {
+    transform: translateX(200%);
+    opacity: 0;
+}

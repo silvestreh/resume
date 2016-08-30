@@ -30,6 +30,11 @@
     }
 }
 
+.home + .navigation {
+    transform: translateX(200%);
+    opacity: 0;
+}
+
 footer {
     margin: auto auto 1rem;
     color: #AAA;
