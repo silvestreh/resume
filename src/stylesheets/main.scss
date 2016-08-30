@@ -32,11 +32,13 @@ $susy: (
     font-family: 'Didactic';
     color: $color-text;
     -webkit-font-smoothing: antialiased;
+    cursor: default;
+    user-select: none;
 }
 
 #app > section {
     @extend .clearfix;
-    
+
     &:not(.home) {
         @include container;
     }

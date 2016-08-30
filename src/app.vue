@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <router-view :is="view"></router-view>
+        <router-view :is="view" transition="reveal" transition-mode="in-out"></router-view>
         <menu></menu>
     </div>
 </template>

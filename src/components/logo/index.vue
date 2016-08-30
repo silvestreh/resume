@@ -63,13 +63,16 @@
     </svg>
 </template>
 <style lang="scss">
+    @import 'src/stylesheets/modules/colors';
+
     .cls-1 {
         fill: none;
-        stroke: #ddd;
+        stroke: $color-text-alt;
         stroke-width: 0.125rem;
         stroke-dasharray: 2150;
         stroke-dashoffset: 2150;
-        animation: dash 2s linear forwards;
+        animation: dash 2s linear forwards, hue-stroke 50s linear infinite;
+        animation-delay: 1s;
     }
 
     .cls-2 {
@@ -81,12 +84,6 @@
     }
 
     .cls-4 {
-        fill: #001652;
-    }
-
-    @keyframes dash {
-        to {
-            stroke-dashoffset: 0;
-        }
+        fill: rgba(255, 255, 255, 0.9);
     }
 </style>

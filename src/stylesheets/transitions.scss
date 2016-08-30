@@ -18,3 +18,54 @@
     transform: translateX(200%);
     opacity: 0;
 }
+
+.reveal-transition {
+    animation: none;
+}
+
+.reveal-enter {
+    animation: reveal 2s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.reveal-leave {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+// Top-Center, Left-Bottom, Right-Bottom
+@keyframes reveal {
+    from { clip-path: polygon(50% 50%, 50% 50%, 50% 50%); }
+    to { clip-path: polygon(50% -200%, -100% 200%, 200% 200%); }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes hue-stroke {
+    0% { stroke: $color-text-alt; }
+    25% { stroke: $color-yellow; }
+    50% { stroke: $color-pink; }
+    75% { stroke: $color-cyan; }
+    100% { stroke: $color-text-alt; }
+}
+
+@keyframes hue-text {
+    0% { color: $color-text-alt; }
+    25% { color: $color-yellow; }
+    50% { color: $color-pink; }
+    75% { color: $color-cyan; }
+    100% { color: $color-text-alt; }
+}

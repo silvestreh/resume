@@ -2,6 +2,10 @@
 @import 'src/stylesheets/modules/colors';
 @import 'src/stylesheets/modules/mixins';
 
+.home {
+    background: #151515;
+}
+
 .home-nav {
     font-family: 'Adam';
     text-align: center;
@@ -22,10 +26,17 @@
         display: inline-block;
         margin: 0 1rem;
         text-decoration: none;
-        color: $color-text;
+        color: white;
+        opacity: 0.25;
+        transition: opacity 250ms;
+        // animation: hue-text 50s linear infinite;
 
         @include phone {
             display: block;
+        }
+
+        &:hover {
+            opacity: 0.5;
         }
     }
 }
@@ -37,7 +48,7 @@
 
 footer {
     margin: auto auto 1rem;
-    color: #AAA;
+    color: rgba(255, 255, 255, 0.25);
     font-size: 0.75em;
     text-align: center;
 
