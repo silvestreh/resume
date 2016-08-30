@@ -1,31 +1,54 @@
 @import 'src/stylesheets/modules/mixins';
 
-section {
+.home {
+    width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-    @include phone {
+    svg {
         display: block;
-    }
-
-    .logo {
-        height: 80vh;
+        margin: auto;
+        max-height: 85%;
         margin-top: 2rem;
-        transform: translate3d(0, 0, 0);
         position: relative;
         z-index: 10;
 
-        @include tablet {
-            margin: 2rem 2rem 0;
-        }
-
         @include phone {
             max-width: 80%;
-            display: block;
-            height: auto;
-            margin: 2rem auto 4rem;
+            max-height: none;
+            margin-bottom: 5rem;
+        }
+
+        @include tablet {
+            max-width: 80%;
         }
     }
 }
+// section {
+//     height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+
+//     @include phone {
+//         display: block;
+//     }
+
+//     .logo {
+//         height: 80vh;
+//         margin-top: 2rem;
+//         transform: translate3d(0, 0, 0);
+//         position: relative;
+//         z-index: 10;
+
+//         @include tablet {
+//             margin: 2rem 2rem 0;
+//         }
+
+//         @include phone {
+//             max-width: 80%;
+//             display: block;
+//             height: auto;
+//             margin: 2rem auto 4rem;
+//         }
+//     }
+// }
