@@ -36,7 +36,6 @@
         left: 0;
         width: 100%;
         opacity: 0.25;
-        transform: translate3d(0, 0, 0);
         z-index: 0;
 
         @include desktop {
@@ -91,7 +90,7 @@
     opacity: 0;
 }
 
-footer {
+.main-footer {
     margin: auto auto 1rem;
     color: rgba(255, 255, 255, 0.25);
     font-size: 0.75em;

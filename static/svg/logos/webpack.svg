@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="835 5885 62 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: #6f95db;
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0.1);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#93b4e7"/>
+      <stop offset="0.593" stop-color="#b9d1f8"/>
+      <stop offset="1" stop-color="#9cb6e0"/>
+    </radialGradient>
+  </defs>
+  <g id="webpack" transform="translate(835 5885)">
+    <path id="path" class="cls-1" d="M31.234.456.3,18.428V54.372L31.234,72.345,62.169,54.372V18.428Z" transform="translate(-0.226 -0.345)"/>
+    <path id="path-2" data-name="path" class="cls-2" d="M80.031,75.263,64.69,84.175V102l15.341,8.913L95.372,102V84.175Z" transform="translate(-49.023 -56.921)"/>
+    <g id="group">
+      <path id="path-3" data-name="path" class="cls-3" d="M31,0,0,18.094,31,35.079,62,18.205Z"/>
+    </g>
+    <g id="group-2" data-name="group" transform="translate(0 37.41)">
+      <path id="path-4" data-name="path" class="cls-3" d="M31,0,0,16.54,31,34.524,61.89,16.429Z"/>
+    </g>
+  </g>
+</svg>

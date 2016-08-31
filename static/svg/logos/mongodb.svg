@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="929 5885 32 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d8ccb4;
+      }
+
+      .cls-2 {
+        fill: #7ac143;
+      }
+
+      .cls-3 {
+        fill: #49a942;
+      }
+    </style>
+  </defs>
+  <g id="group-45" transform="translate(929.015 5885)">
+    <g id="group" transform="translate(14.013 50.217)">
+      <path id="path" class="cls-1" d="M11.606,33.136S9.77,25.569,9.77,21.9C8.853,34.511,6.1,33.365,6.1,33.365c2.523,3.9,1.376,10.318,1.376,10.318H10a41.656,41.656,0,0,1,0-7.8C10,34.97,11.147,33.824,11.606,33.136Z" transform="translate(-6.1 -21.9)"/>
+      <path id="path-2" data-name="path" class="cls-1" d="M9.2,26.3c.1,0,.1-.1,0,0Z" transform="translate(-2.089 -16.211)"/>
+    </g>
+    <path id="path-3" data-name="path" class="cls-2" d="M16.766,63.745S-.9,52.051.019,33.248,15.619,1.376,15.619,0c.918,2.064,6.423,31.185,6.653,34.624C22.73,47.924,16.766,63.745,16.766,63.745Z" transform="translate(0)"/>
+    <path id="path-4" data-name="path" class="cls-3" d="M22.5,28.3C18.829,11.794,6.9.1,6.9.1h0c4.588,19.49.918,63.516.918,63.516S26.4,51,22.5,28.3Z" transform="translate(8.948 0.129)"/>
+  </g>
+</svg>

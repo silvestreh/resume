@@ -1,0 +1,6 @@
+<div class="experience">
+    <h5>{{ data.title }} <em>at {{ data.employer }}</em></h5>
+    <h6 v-if="data.date.to">{{ data.date.from }} – {{ data.date.to }}</h6>
+    <h6 v-else>Since {{ data.date.from }}</h6>
+    {{{ data.description }}}
+</div>

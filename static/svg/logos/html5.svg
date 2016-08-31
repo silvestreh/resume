@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="224 5885 51 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e44f26;
+      }
+
+      .cls-2 {
+        fill: #f1662a;
+      }
+
+      .cls-3 {
+        fill: #ebebeb;
+      }
+
+      .cls-4 {
+        fill: #010101;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="group" transform="translate(175.687 5803.865)">
+    <path id="path" class="cls-1" d="M52.954,215.714l-4.641-52.068h51l-4.646,52.059L73.782,221.5Z" transform="translate(0 -68.361)"/>
+    <path id="path-2" data-name="path" class="cls-2" d="M197.038,237.638l16.876-4.68,3.971-44.487H197.038Z" transform="translate(-123.225 -88.929)"/>
+    <path id="path-3" data-name="path" class="cls-3" d="M119.673,238.634h-8.449l-.584-6.539h9.032v-6.386h-16.01l.153,1.713,1.569,17.6h14.288Z" transform="translate(-45.86 -119.781)"/>
+    <path id="path-4" data-name="path" class="cls-3" d="M129.373,363.943l-.028.008-7.111-1.92-.455-5.093h-6.409l.895,10.026,13.078,3.632.03-.008Z" transform="translate(-55.56 -228.506)"/>
+    <path id="path-5" data-name="path" class="cls-4" d="M75.988,81.135h3.245v3.206H82.2V81.135h3.245v9.709H82.2V87.593H79.233v3.251H75.988V81.135Z" transform="translate(-22.93 0)"/>
+    <path id="path-6" data-name="path" class="cls-4" d="M142.229,84.355h-2.857v-3.22h8.959v3.22h-2.858v6.49h-3.245v-6.49Z" transform="translate(-75.446 0)"/>
+    <path id="path-7" data-name="path" class="cls-4" d="M199.916,81.135H203.3l2.081,3.412,2.079-3.412h3.384v9.709h-3.231V86.032l-2.233,3.452h-.056l-2.234-3.452v4.813h-3.175V81.135Z" transform="translate(-125.61 0)"/>
+    <path id="path-8" data-name="path" class="cls-4" d="M273.07,81.135h3.246v6.5h4.563v3.209H273.07V81.135Z" transform="translate(-186.221 0)"/>
+    <path id="path-9" data-name="path" class="cls-5" d="M196.909,301.081v6.386h7.862l-.741,8.282-7.121,1.922v6.644L210,320.686l.1-1.079,1.5-16.812.156-1.715H196.909Z" transform="translate(-123.118 -182.227)"/>
+    <path id="path-10" data-name="path" class="cls-5" d="M196.909,225.709V232.1h15.422l.128-1.435.291-3.237.153-1.713Z" transform="translate(-123.118 -119.781)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+@import 'src/stylesheets/modules/colors';
+
+.recommendation {
+    blockquote {
+        color: #BBB;
+        border-left: 0.125rem solid #F2F2F2;
+        margin-left: auto;
+        padding-left: 1.5rem;
+    }
+
+    + .recommendation {
+        margin-top: 2rem;
+    }
+}

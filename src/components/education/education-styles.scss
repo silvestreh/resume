@@ -1,0 +1,28 @@
+@import '~susy';
+@import 'src/stylesheets/modules/colors';
+
+.education {
+    h5, h6 {
+        margin: 0;
+    }
+
+    h5 {
+        color: $color-pink;
+        font-size: 0.9em;
+        margin-bottom: 0.75em;
+
+        em {
+            color: lighten($color-text, 20%);
+            margin-left: 0.75em;
+            font-weight: normal;
+        }
+    }
+
+    h6 {
+        color: lighten($color-text, 20%);
+    }
+
+    + .education {
+        margin-top: 2.5rem;
+    }
+}

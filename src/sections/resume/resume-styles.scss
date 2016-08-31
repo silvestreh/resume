@@ -1,0 +1,132 @@
+@import 'src/stylesheets/modules/colors';
+@import 'src/stylesheets/modules/mixins';
+@import 'src/stylesheets/util/init-grid';
+
+.resume {
+    background: white;
+
+    .title {
+        @include span(2 of 12);
+        @include phone {
+            display: none;
+        }
+    }
+
+    article {
+        @include container;
+        max-width: 74rem;
+
+        @include phone {
+            padding: 0 1rem;
+        }
+
+        @include big-desktop {
+            max-width: 88rem;
+        }
+
+        > h1 {
+            @include span(8 of 12);
+            @include push(2);
+            color: $color-cyan;
+            margin-bottom: 1em;
+            margin-top: 1.15em;
+
+            @include phone {
+                @include span(12 of 12);
+                @include push(0);
+            }
+
+            small {
+                font-size: 0.35em;
+                color: lighten($color-text, 20%);
+            }
+        }
+
+        &.header {
+            margin-top: 3rem;
+
+            @include phone {
+                margin-top: 0;
+            }
+
+            div {
+                @include span(8 of 12);
+                @include phone {
+                    @include span(12 of 12);
+                }
+
+                img {
+                    @include span(2 of 8);
+                    @include phone {
+                        display: none;
+                    }
+                }
+            }
+
+            h1, p {
+                @include span(6 of 8);
+                margin-top: 0;
+                margin-bottom: 0;
+
+                @include phone {
+                    @include span(12 of 12);
+                }
+            }
+
+            h1 {
+                color: $color-pink;
+                font-size: 1.75em;
+                margin-bottom: 0.3em;
+                margin-top: 2.75rem;
+            }
+
+            p {
+                font-size: 1.125em;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .toolbox {
+        font-size: 0;
+        white-space: nowrap;
+        text-align: center;
+        padding: 0;
+        clear: both;
+        margin-bottom: 2rem;
+
+        @include phone {
+            white-space: normal;
+            text-align: left;
+        }
+
+        li {
+            display: inline-block;
+            font-size: 1rem;
+            margin: 0 1rem;
+
+            @include phone {
+                width: 25%;
+                margin: 1rem 0;
+            }
+        }
+
+        img {
+            display: block;
+            height: 4.5rem;
+            width: auto;
+            margin: auto;
+        }
+    }
+
+    .education, .experience,
+    .recommendation, .award {
+        @include span(8 of 12);
+        @include push(2);
+
+        @include phone {
+            @include span(12 of 12);
+            @include push(0);
+        }
+    }
+}

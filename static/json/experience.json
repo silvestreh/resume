@@ -1,0 +1,40 @@
+{
+    "resource": "Experience",
+    "data": [{
+        "title": "Lead Frontend Developer & UI Designer",
+        "employer": "The Fan Machine",
+        "location": "Buenos Aies, AR",
+        "description": "<p>I'm in charge of designing and building user interfaces throughout the company's products. I use AngularJS (1.x), and Sass mainly.</p><p>I also built dozens of Facebook applications designed to increase a brand's social presence and engage their followers for big clients like Grupo Clarín from Argentina and Banamex from Mexico.</p>",
+        "date": {
+            "from": "June 2011",
+            "to": null
+        }
+    }, {
+        "title": "User Interface Designer for Mobile Devices",
+        "employer": "Badoo",
+        "location": "London, UK",
+        "description": "<p>I designed the user interface for Badoo's Android app while working with a UK based agency as a freelancer. I also took other minor projects with the same agency that mostly involved web design.</p>",
+        "date": {
+            "from": "July 2010",
+            "to": "November 2010"
+        }
+    }, {
+        "title": "Iconography Designer",
+        "employer": "Brilliant UK",
+        "location": "London, UK",
+        "description": "<p>Brilliant UK is a London-based web design agency specialising in eCommerce and Content Management Systems.</p><p>They hired me to create a set of icons for Canonical's Launchpad, which is a Project Management platform by the same company behind Ubuntu Linux.</p>",
+        "date": {
+            "from": "September 2006",
+            "to": "July 2008"
+        }
+    }, {
+        "title": "Iconography Designer",
+        "employer": "Fabric Labs",
+        "location": "Los Angeles, CA",
+        "description": "<p>Fabric Labs is a Los Angeles based agency that develops software, incubates companies, and generates and analyzes big data.</p><p>Back in 2006 Fabric hired me to create icons for several of their ongoing projects. I used open source tools, like Inkscape and Gimp, to achieve all the goals requested by Fabric Labs.</p>",
+        "date": {
+            "from": "June 2006",
+            "to": "April 2008"
+        }
+    }]
+}

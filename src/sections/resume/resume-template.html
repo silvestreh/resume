@@ -1,0 +1,40 @@
+<section class="resume">
+    <article class="header">
+        <img src="/static/svg/resume.svg" alt="Résumé Title" class="title">
+        <div>
+            <img src="/static/svg/silvestre.svg" alt="Person">
+            <h1>Silvestre Herrera</h1>
+            <p>Developer, designer. Problem solver and, above all, fast learner.</p>
+        </div>
+    </article>
+    <article>
+        <h1>Toolbox <small>(including, but not limited to)</small></h1>
+        <ul class="toolbox">
+            <li><img src="/static/svg/logos/html5.svg" alt="HTML5"></li>
+            <li><img src="/static/svg/logos/css3.svg" alt="CSS3"></li>
+            <li><img src="/static/svg/logos/js.svg" alt="JavaScript"></li>
+            <li><img src="/static/svg/logos/vuejs.svg" alt="Vue.js"></li>
+            <li><img src="/static/svg/logos/angularjs.svg" alt="AngularJS"></li>
+            <li><img src="/static/svg/logos/sass.svg" alt="Sass"></li>
+            <li><img src="/static/svg/logos/webpack.svg" alt="Webpack"></li>
+            <li><img src="/static/svg/logos/mongodb.svg" alt="MongoDB"></li>
+            <li><img src="/static/svg/logos/nodejs.svg" alt="NodeJS"></li>
+        </ul>
+    </article>
+    <article>
+        <h1>Experience</h1>
+        <experience v-for="item in experience" :data="item"></experience>
+    </article>
+    <article>
+        <h1>Education</h1>
+        <education v-for="item in education" :data="item"></education>
+    </article>
+    <article>
+        <h1>Recommendations</h1>
+        <recommendation v-for="item in recommendations" :data="item"></recommendation>
+    </article>
+    <article>
+        <h1>Awards</h1>
+        <award v-for="item in awards" :data="item"></award>
+    </article>
+</section>

@@ -1,0 +1,9 @@
+@import 'src/components/education/education-styles';
+
+.experience {
+    @extend .education;
+
+    h5 em {
+        margin-left: 0.5em;
+    }
+}

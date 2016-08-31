@@ -1,0 +1,4 @@
+@import '~susy';
+
+$susy: 12 1/4 fluid float split;
+@include layout($susy);

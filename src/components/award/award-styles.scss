@@ -1,0 +1,16 @@
+@import 'src/stylesheets/util/init-grid';
+
+.award {
+    > img {
+        @include span(2 of 8);
+    }
+
+    .data {
+        @include span(6 of 8);
+
+        > img {
+            height: 2.75rem;
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="494 5885 82 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #41b883;
+      }
+
+      .cls-2 {
+        fill: #35495e;
+      }
+    </style>
+  </defs>
+  <g id="vuejs" transform="translate(494 5885)">
+    <path id="path" class="cls-1" d="M65.6,0H82L41,72,0,0H31.365L41,16.7,50.43,0Z"/>
+    <path id="path-2" data-name="path" class="cls-1" d="M0,0,41,72,82,0H65.6L41,43.2,16.2,0Z"/>
+    <path id="path-3" data-name="path" class="cls-2" d="M50.56,0,75.365,43.409,99.965,0H84.795l-9.43,16.7L65.73,0Z" transform="translate(-34.365)"/>
+  </g>
+</svg>

@@ -5,9 +5,6 @@
         </span>
     </button>
     <nav class="navigation__nav" v-if="showMenuItems" transition="fade">
-        <a class="navigation__nav__item" v-link="{ path: '/resume' }">Résumé</a>
-        <a class="navigation__nav__item" v-link="{ path: '/projects' }">Projects</a>
-        <a class="navigation__nav__item" v-link="{ path: '/about' }">About</a>
-        <a class="navigation__nav__item" v-link="{ path: '/contact' }">Contact</a>
+        <a v-for="section in sections" class="navigation__nav__item" v-link="{ path: section.path }">{{ section.name }}</a>
     </nav>
 </div>
