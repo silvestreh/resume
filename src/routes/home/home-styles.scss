@@ -73,7 +73,6 @@
         color: white;
         opacity: 0.25;
         transition: opacity 250ms;
-        // animation: hue-text 50s linear infinite;
 
         @include phone {
             display: block;

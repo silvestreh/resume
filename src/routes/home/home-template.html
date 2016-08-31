@@ -6,6 +6,9 @@
         <a class="home-nav__item" v-link="{ path: '/about' }">About</a>
         <a class="home-nav__item" v-link="{ path: '/contact' }">Contact</a>
     </nav>
-    <video src="/static/video/grid.mp4" autoplay loop></video>
+    <video autoplay loop>
+        <source type="video/mp4" src="/static/video/grid@2x.mp4" media="(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)">
+        <source type="video/mp4" src="/static/video/grid.mp4" media="(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)">
+    </video>
     <footer class="main-footer">Designed and developed by yours truly</footer>
 </section>

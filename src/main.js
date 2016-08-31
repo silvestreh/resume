@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
-import App from './app';
-import routes from 'router/routes-map';
+import App from 'src/app';
+import routes from 'routes/routes-map';
 
 Vue.use(VueRouter);
 Vue.use(VueResource);
@@ -12,5 +12,8 @@ const router = new VueRouter({
 });
 
 router.map(routes);
+router.beforeEach(() => {
+    router.app.$refs.menu.hideMenu();
+});
 
 router.start(App, '#app');

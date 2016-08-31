@@ -27,5 +27,9 @@ export default {
         toggleMenu() {
             this.showMenuItems = !this.showMenuItems;
         },
+
+        hideMenu() {
+            this.showMenuItems = false;
+        },
     },
 };
