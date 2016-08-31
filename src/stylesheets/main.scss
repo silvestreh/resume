@@ -10,6 +10,9 @@
 @import 'src/stylesheets/fonts/didactic';
 @import 'src/stylesheets/typography';
 
+// Static Components
+@import 'src/stylesheets/static-components/form';
+
 // Misc
 @import 'src/stylesheets/util/clearfix';
 @import 'src/stylesheets/transitions';

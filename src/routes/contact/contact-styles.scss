@@ -5,6 +5,10 @@
 .contact {
     color: $color-text-alt;
     background: {
+        // image: url('/static/svg/decor-background.svg');
+        // repeat: no-repeat;
+        // size: 50% auto;
+        // position: 130% center;
         color: $color-blue;
     }
 
@@ -15,6 +19,10 @@
         @include big-desktop {
             max-width: 88rem;
         }
+
+        @include phone {
+            padding: 0 1rem;
+        }
     }
 
     h1 {
@@ -23,6 +31,12 @@
         margin-bottom: 1rem;
         @include span(2 of 12);
         @include push(1);
+
+        @include phone {
+            @include span(12 of 12);
+            @include push(0);
+            text-align: left;
+        }
     }
 
     p {
@@ -47,6 +61,13 @@
         @include span(4 of 12);
         @include push(3);
         clear: both;
+        position: relative;
+        z-index: 10;
+
+        @include phone {
+            @include span(12 of 12);
+            @include push(0);
+        }
     }
 
     + .navigation {

@@ -3,11 +3,16 @@
 @import 'src/stylesheets/util/init-grid';
 
 .about {
+    overflow-x: hidden;
     background: {
         color: #222;
         image: url('/static/raster/myself@2x.png');
         repeat: no-repeat;
         size: 50% auto;
+    }
+
+    @include phone {
+        background-image: none;
     }
 
     h1 {
@@ -16,6 +21,13 @@
         text-align: right;
         margin-bottom: 0;
         @include span(3 of 12);
+
+        @include phone {
+            text-align: left;
+            margin-bottom: 2rem;
+            @include span(12 of 12);
+            @include push(0);
+        }
     }
 
     article {
@@ -26,10 +38,19 @@
             max-width: 88rem;
         }
 
+        @include phone {
+            padding: 0 1rem;
+        }
+
         > div {
             @include span(6 of 12);
             @include push(6);
             position: relative;
+
+            @include phone {
+                @include span(12 of 12);
+                @include push(0);
+            }
 
             &::before {
                 content: '';
@@ -42,6 +63,12 @@
                 background: {
                     image: url('/static/svg/decor-medium.svg');
                     repeat: no-repeat;
+                }
+
+                @include phone {
+                    position: static;
+                    display: inline-block;
+                    float: left;
                 }
             }
 
