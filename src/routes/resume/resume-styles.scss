@@ -90,7 +90,6 @@
     }
 
     .toolbox {
-        font-size: 0;
         white-space: nowrap;
         text-align: center;
         padding: 0;
@@ -104,7 +103,7 @@
 
         li {
             display: inline-block;
-            font-size: 1rem;
+            vertical-align: middle;
             margin: 0 1rem;
 
             @include phone {
@@ -116,6 +115,7 @@
         img {
             display: block;
             height: 4.5rem;
+            max-width: 4.5rem;
             width: auto;
             margin: auto;
         }
