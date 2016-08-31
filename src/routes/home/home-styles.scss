@@ -1,4 +1,4 @@
-@import '~susy';
+@import '~animate.css';
 @import 'src/stylesheets/modules/colors';
 @import 'src/stylesheets/modules/mixins';
 
@@ -29,6 +29,9 @@
     }
 
     video {
+        @extend .animated;
+        @extend .slideInUp;
+        animation-duration: 5s;
         display: none;
         pointer-events: none;
         position: fixed;

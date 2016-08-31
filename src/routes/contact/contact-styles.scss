@@ -1,0 +1,57 @@
+@import 'src/stylesheets/modules/colors';
+@import 'src/stylesheets/modules/mixins';
+@import 'src/stylesheets/util/init-grid';
+
+.contact {
+    color: $color-text-alt;
+    background: {
+        color: $color-blue;
+    }
+
+    article {
+        @include container;
+        max-width: 74rem;
+
+        @include big-desktop {
+            max-width: 88rem;
+        }
+    }
+
+    h1 {
+        color: $color-gum;
+        text-align: right;
+        margin-bottom: 1rem;
+        @include span(2 of 12);
+        @include push(1);
+    }
+
+    p {
+        margin-top: 0;
+
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            vertical-align: middle;
+            margin-left: 0.5rem;
+            background: {
+                image: url('/static/svg/decor-small.svg');
+                repeat: no-repeat;
+                size: 1rem 1rem;
+            }
+        }
+    }
+
+    form {
+        @include span(4 of 12);
+        @include push(3);
+        clear: both;
+    }
+
+    + .navigation {
+        .navigation__toggler {
+            background-color: rgba(255, 255, 255, 0.25);
+        }
+    }
+}
