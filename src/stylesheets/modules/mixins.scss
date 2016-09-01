@@ -36,3 +36,10 @@ $big-desktop-width: 1440px;
         @content;
     }
 }
+
+@mixin buttons {
+    input[type="submit"], input[type="reset"],
+    input[type="button"], button, .button {
+        @content;
+    }
+}

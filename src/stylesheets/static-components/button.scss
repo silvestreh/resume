@@ -1,0 +1,21 @@
+@import 'src/stylesheets/modules/colors';
+@import 'src/stylesheets/modules/mixins';
+
+@include buttons {
+    font-family: 'Adam';
+    border: none;
+    border-radius: 0.125rem;
+    display: inline-block;
+    background: $color-cyan;
+    color: white;
+    line-height: 3rem;
+    padding: 0 2rem;
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 250ms, background 250ms;
+
+    &:hover, &:focus {
+        background: lighten($color-cyan, 5%);
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+    }
+}

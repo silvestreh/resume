@@ -4,6 +4,10 @@ export default {
             showMenuItems: false,
             sections: [
                 {
+                    name: 'Home',
+                    path: '/home',
+                },
+                {
                     name: 'Résumé',
                     path: '/resume',
                 },

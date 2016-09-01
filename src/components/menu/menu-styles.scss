@@ -76,7 +76,7 @@
             animation-duration: 350ms;
             color: $color-text;
 
-            @for $i from 1 through 4 {
+            @for $i from 1 through 5 {
                 &:nth-child(#{$i}) {
                     animation-delay: #{75 * $i}ms;
                 }

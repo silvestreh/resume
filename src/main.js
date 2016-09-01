@@ -15,5 +15,8 @@ router.map(routes);
 router.beforeEach(() => {
     router.app.$refs.menu.hideMenu();
 });
+router.redirect({
+    '/home': '/',
+});
 
 router.start(App, '#app');

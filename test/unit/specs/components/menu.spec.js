@@ -35,10 +35,18 @@ describe('Menu component', () => {
         expect(vm.$refs.menuComponent.showMenuItems).to.equal(true);
     });
 
+    it('should be able to hide menu items', () => {
+        expect(vm.$refs.menuComponent.showMenuItems).to.equal(false);
+        vm.$refs.menuComponent.toggleMenu();
+        expect(vm.$refs.menuComponent.showMenuItems).to.equal(true);
+        vm.$refs.menuComponent.hideMenu();
+        expect(vm.$refs.menuComponent.showMenuItems).to.equal(false);
+    });
+
     it('should have four items', () => {
         vm.$refs.menuComponent.toggleMenu();
         vm.$nextTick(() => {
-            expect(Array.from(vm.$el.querySelectorAll('a')).length).to.equal(4);
+            expect(Array.from(vm.$el.querySelectorAll('a')).length).to.equal(5);
         });
     });
 });
