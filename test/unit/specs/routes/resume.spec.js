@@ -20,51 +20,37 @@ describe('Resume route', () => {
     it('should fetch JSON data', (done) => {
         Vue.http.interceptors.push((request, next) => {
             let res;
+            const successRes = {
+                status: 200,
+                statusText: 'Ok',
+                ok: true,
+            };
+            const errorRes = {
+                status: 404,
+                statusText: 'Not found',
+                ok: false,
+                data: 'NOT FOUND',
+            };
 
             switch (request.url) {
             case '/static/json/awards.json': {
-                res = {
-                    status: 200,
-                    statusText: 'Ok',
-                    ok: true,
-                    data: awards,
-                };
+                res = Object.assign({ data: awards, }, successRes);
                 break;
             }
             case '/static/json/education.json': {
-                res = {
-                    status: 200,
-                    statusText: 'Ok',
-                    ok: true,
-                    data: education,
-                };
+                res = Object.assign({ data: education, }, successRes);
                 break;
             }
             case '/static/json/experience.json': {
-                res = {
-                    status: 200,
-                    statusText: 'Ok',
-                    ok: true,
-                    data: experience,
-                };
+                res = Object.assign({ data: experience, }, successRes);
                 break;
             }
             case '/static/json/recommendations.json': {
-                res = {
-                    status: 200,
-                    statusText: 'Ok',
-                    ok: true,
-                    data: recommendations,
-                };
+                res = Object.assign({ data: recommendations, }, successRes);
                 break;
             }
             default: {
-                res = {
-                    status: 404,
-                    statusText: 'Not found',
-                    ok: false,
-                    data: 'NOT FOUND',
-                };
+                res = errorRes;
                 break;
             }
             }

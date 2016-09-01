@@ -57,6 +57,9 @@ module.exports = function (config) {
     frameworks: ['mocha', 'sinon-chai'],
     reporters: ['spec', 'coverage'],
     files: ['./index.js'],
+    proxies: {
+        '/static/': `http://localhost:8080/static/`
+    },
     preprocessors: {
       './index.js': ['webpack', 'sourcemap']
     },
