@@ -5,9 +5,21 @@
 
 > A personal résumé/portfolio site
 
+## Requirements
+
+* Node >= 0.12
+
 ## Build Setup
 
-``` bash
+There's a `server.js` file with a minimal Express server to handle e-mails and serve static files from `dist/`. You'll need to put these environment variables to get Mailgun working:
+
+```shell
+export RESUME_MAIL=your@email.com
+export MAILGUN_DOMAIN=mailgundomain.com
+export MAILGUN_KEY=yourMailgunAPIKey
+```
+
+```shell
 # install dependencies
 npm install
 
