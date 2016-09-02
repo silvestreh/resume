@@ -11,6 +11,13 @@
     transform: translate3d(0.375rem, -3.5rem, 0);
 }
 
+_:-ms-lang(x), .cls-1 {
+    animation: none;
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+    opacity: 0.5;
+} 
+
 @supports (-ms-ime-align:auto) {
     .cls-1 {
         animation: none;
