@@ -1,0 +1,30 @@
+#toast-container {
+    > div {
+        font-family: 'Arial', sans-serif;
+        border-radius: 0;
+        padding: 1rem 1.5rem;
+        font-size: 0.85em;
+        box-shadow: none;
+        opacity: 1;
+        margin: 0;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        &.toast-success, &.toast-error {
+            // DAMN YOU AND YOUR IMPORTANT FLAGS, TOASTR! LOL
+            background: #252525;
+            background-image: none !important;
+            border-left: 0.125rem solid transparent;
+        }
+
+        &.toast-success {
+            border-color: #8BC34A;
+        }
+
+        &.toast-error {
+            border-color: #F44336;
+        }
+    }
+}

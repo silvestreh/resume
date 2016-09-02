@@ -49,6 +49,7 @@
         @include push(3);
         clear: both;
         position: relative;
+        margin-bottom: 4rem;
         z-index: 10;
 
         @include phone {

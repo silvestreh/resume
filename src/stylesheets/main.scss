@@ -1,6 +1,7 @@
 // Vendor
 @import '~normalize.css';
 @import '~hamburgers';
+@import '~toastr/toastr';
 
 // Modules
 @import 'src/stylesheets/modules/colors';
@@ -13,6 +14,7 @@
 // Static Components
 @import 'src/stylesheets/static-components/button';
 @import 'src/stylesheets/static-components/form';
+@import 'src/stylesheets/static-components/toasts';
 
 // Misc
 @import 'src/stylesheets/util/clearfix';
