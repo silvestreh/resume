@@ -6,7 +6,7 @@
     stroke-width: 0.125rem;
     stroke-dasharray: 2150;
     stroke-dashoffset: 2150;
-    animation: dash 2s linear forwards, hue-stroke 50s linear infinite;
+    animation: dash 2s linear forwards;//, hue-stroke 50s linear infinite;
     animation-delay: 1s;
     transform: translate3d(0.375rem, -3.5rem, 0);
 }
