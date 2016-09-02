@@ -5,4 +5,4 @@ branches:
 node_js:
   - "6.2"
 after_success:
-  - cat test/unit/coverage/lcov.info | ./node_modules/.bin/codacy-coverage
+  - bash <(curl -s https://codecov.io/bash)
