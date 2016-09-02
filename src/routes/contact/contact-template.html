@@ -8,7 +8,7 @@
                 <li><input v-model="email" type="email" placeholder="Your email"></li>
                 <li><textarea v-model="message" placeholder="Your message"></textarea></li>
             </ol>
-            <button>Send</button>
+            <button @click.prevent="send">Send</button>
         </form>
         <decor></decor>
     </article>

@@ -1,5 +1,7 @@
 import decor from 'components/decor';
 
+const URL = `${(location.protocol || 'http:')}//${location.hostname}`;
+
 export default {
     name: 'contact-section',
 
@@ -13,5 +15,13 @@ export default {
             message: '',
             name: '',
         };
+    },
+
+    methods: {
+        send() {
+            this.$http.post(URL, this.data)
+                .then(() => this.$log('Message sent!'))
+                .catch(() => this.$log('Error'));
+        }
     },
 };
