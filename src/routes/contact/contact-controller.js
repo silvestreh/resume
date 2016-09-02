@@ -1,7 +1,7 @@
 import decor from 'components/decor';
 import toastr from 'toastr';
 
-const URL = `${(location.protocol || 'http:')}//${location.hostname}:3000`;
+const URL = `http://${location.hostname}:3000`;
 toastr.options.positionClass = 'toast-bottom-left';
 
 export default {
@@ -13,22 +13,31 @@ export default {
 
     data() {
         return {
-            email: '',
-            message: '',
-            name: '',
+            sent: false,
+            formData: {
+                email: '',
+                message: '',
+                name: '',
+            },
         };
     },
 
     methods: {
         send() {
-            const data = {
-                email: this.email,
-                message: this.message,
-                name: this.name,
-            };
-            this.$http.post(URL, data)
-                .then(() => toastr.success('Message sent!'))
-                .catch(() => toastr.error('Yeah, no. That didn\'t work'));
-        }
+            this.$http.post(URL, this.formData)
+                .then(this.handleSuccess)
+                .catch(this.catchError);
+        },
+
+        handleSuccess() {
+            this.sent = true;
+            toastr.success('Message sent!');
+        },
+
+        catchError() {
+            this.sent = false;
+            toastr.error('Yeah, no. That didn\'t work');
+        },
     },
+
 };

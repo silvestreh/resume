@@ -4,9 +4,9 @@
         <form>
             <p>Thinking about working together? Awesome! Use the contact form below and I'll get back to you as soon as possible.</p>
             <ol>
-                <li><input v-model="name" type="text" placeholder="Your name"></li>
-                <li><input v-model="email" type="email" placeholder="Your email"></li>
-                <li><textarea v-model="message" placeholder="Your message"></textarea></li>
+                <li><input v-model="formData.name" type="text" placeholder="Your name"></li>
+                <li><input v-model="formData.email" type="email" placeholder="Your email"></li>
+                <li><textarea v-model="formData.message" placeholder="Your message"></textarea></li>
             </ol>
             <button @click.prevent="send">Send</button>
         </form>
