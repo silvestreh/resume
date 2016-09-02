@@ -32,7 +32,6 @@
         @extend .animated;
         @extend .slideInUp;
         animation-duration: 5s;
-        display: none;
         pointer-events: none;
         position: fixed;
         bottom: 0;
@@ -40,14 +39,6 @@
         width: 100%;
         opacity: 0.25;
         z-index: 0;
-
-        @include desktop {
-            display: block;
-        }
-
-        @include big-desktop {
-            display: block;
-        }
     }
 }
 
