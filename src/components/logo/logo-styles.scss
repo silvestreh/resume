@@ -8,6 +8,23 @@
     stroke-dashoffset: 2150;
     animation: dash 2s linear forwards, hue-stroke 50s linear infinite;
     animation-delay: 1s;
+
+}
+
+@supports (-ms-ime-align:auto) {
+    .cls-1 {
+        animation: none;
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+    }
+}
+
+@media screen and (min-width:0) {
+    .cls-1 {
+        animation: none;
+        stroke-dasharray: none;
+        stroke-dashoffset: 0;
+    }
 }
 
 .cls-2 {

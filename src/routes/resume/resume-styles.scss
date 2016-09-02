@@ -34,6 +34,7 @@
             margin-top: 1.15em;
 
             @include phone {
+                font-size: 1.5em;
                 @include span(12 of 12);
                 @include push(0);
             }
@@ -80,6 +81,10 @@
                 font-size: 1.75em;
                 margin-bottom: 0.3em;
                 margin-top: 2.75rem;
+
+                @include phone {
+                    margin-top: 1rem;
+                }
             }
 
             p {
@@ -90,25 +95,33 @@
     }
 
     .toolbox {
-        white-space: nowrap;
         text-align: center;
         padding: 0;
         clear: both;
         margin-bottom: 2rem;
 
         @include phone {
+            @include container;
             white-space: normal;
-            text-align: left;
+        }
+
+        @include tablet {
+            @include container;
+            white-space: normal;
         }
 
         li {
             display: inline-block;
             vertical-align: middle;
-            margin: 0 1rem;
+            margin: 0.5rem 1rem;
 
             @include phone {
-                width: 25%;
-                margin: 1rem 0;
+                @include span(4 of 12);
+            }
+
+            @include tablet {
+                @include span(3 of 12);
+                margin-bottom: gutter() * 6;
             }
         }
 
