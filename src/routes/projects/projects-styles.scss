@@ -31,6 +31,8 @@
     }
 
     .slider {
+        margin-top: 2rem;
+
         .project-widget {
             @include span(4 of 12);
             margin-bottom: gutter() * 2;

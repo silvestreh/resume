@@ -4,6 +4,7 @@
         {
             "title": "Atom Material UI",
             "poster": "/static/svg/projects/amu.svg",
+            "url": "https://github.com/atom-material/atom-material-ui/",
             "description": {
                 "short": "A Material Design-inspired theme for Github's Atom."
             }
@@ -11,6 +12,7 @@
         {
             "title": "OnScreen();",
             "poster": "/static/svg/projects/onscreen.svg",
+            "url": "https://github.com/silvestreh/onScreen",
             "description": {
                 "short": "A light library that checks when elements enter or leave the viewport."
             }
@@ -25,6 +27,7 @@
         {
             "title": "Résumé",
             "poster": "/static/svg/projects/resume.svg",
+            "url": "http://www.silvestre.com.ar",
             "description": {
                 "short": "A Vue.js-powered personal portfolio. You're looking at it."
             }
