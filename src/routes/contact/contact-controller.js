@@ -31,6 +31,9 @@ export default {
 
         handleSuccess() {
             this.sent = true;
+            this.formData.email = '';
+            this.formData.message = '';
+            this.formData.name = '';
             toastr.success('Message sent!');
         },
 
