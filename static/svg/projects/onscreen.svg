@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="448 1194 384 448">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e2ffd9;
+      }
+
+      .cls-2 {
+        fill: rgba(0,0,0,0.6);
+        font-size: 40px;
+        font-family: FiraCode-Regular, Fira Code;
+      }
+    </style>
+  </defs>
+  <g id="group-52" transform="translate(448 1194)">
+    <path id="rectangle-2" class="cls-1" d="M0,0H384V448H0Z"/>
+    <text id="OnScreen_" data-name="OnScreen()" class="cls-2" transform="translate(183.2 176.733)"><tspan x="-132" y="0">OnScreen();</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+    "title": "Résumé",
+    "poster": "/static/svg/projects/resume.svg",
+    "description": {
+        "short": "A Vue.js-powered personal portfolio. You're looking at it.",
+        "long": ""
+    }
+}

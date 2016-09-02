@@ -1,0 +1,39 @@
+@import 'src/stylesheets/modules/colors';
+@import 'src/stylesheets/modules/mixins';
+@import 'src/stylesheets/util/init-grid';
+
+.projects {
+    background: #FAFAFA;
+
+    article {
+        @include container;
+        max-width: 74rem;
+
+        @include big-desktop {
+            max-width: 88rem;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: right;
+            margin-bottom: 1rem;
+            color: $color-blue;
+            @include span(3 of 12);
+        }
+
+        > p {
+            clear: both;
+            margin-top: 0;
+            @include span(4 of 12);
+            @include push(3);
+            @include paragraph-decor;
+        }
+    }
+
+    .slider {
+        .project-widget {
+            @include span(4 of 12);
+            margin-bottom: gutter() * 2;
+        }
+    }
+}

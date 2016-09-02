@@ -25,11 +25,10 @@ export default {
         };
     },
 
-    /* istanbul ignore next */
     ready() {
-        fetchJSON(this, 'awards');
-        fetchJSON(this, 'education');
-        fetchJSON(this, 'experience');
-        fetchJSON(this, 'recommendations');
+        fetchJSON(this, 'resume/awards');
+        fetchJSON(this, 'resume/education');
+        fetchJSON(this, 'resume/experience');
+        fetchJSON(this, 'resume/recommendations');
     },
 };

@@ -4,10 +4,10 @@ import resume from 'routes/resume';
 import fetchJSON from 'src/helpers/fetch-json';
 
 // Static data
-import awards from '../../../../static/json/awards.json';
-import education from '../../../../static/json/education.json';
-import experience from '../../../../static/json/experience.json';
-import recommendations from '../../../../static/json/recommendations.json';
+import awards from '../../../../static/json/resume/awards.json';
+import education from '../../../../static/json/resume/education.json';
+import experience from '../../../../static/json/resume/experience.json';
+import recommendations from '../../../../static/json/resume/recommendations.json';
 
 Vue.use(VueResource);
 
@@ -33,19 +33,19 @@ describe('Resume route', () => {
             };
 
             switch (request.url) {
-            case '/static/json/awards.json': {
+            case '/static/json/resume/awards.json': {
                 res = Object.assign({ data: awards, }, successRes);
                 break;
             }
-            case '/static/json/education.json': {
+            case '/static/json/resume/education.json': {
                 res = Object.assign({ data: education, }, successRes);
                 break;
             }
-            case '/static/json/experience.json': {
+            case '/static/json/resume/experience.json': {
                 res = Object.assign({ data: experience, }, successRes);
                 break;
             }
-            case '/static/json/recommendations.json': {
+            case '/static/json/resume/recommendations.json': {
                 res = Object.assign({ data: recommendations, }, successRes);
                 break;
             }

@@ -1,0 +1,42 @@
+@import 'src/stylesheets/modules/colors';
+
+.project-widget {
+    position: relative;
+    min-height: 28rem;
+
+    &__poster {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: {
+            size: cover;
+            repeat: no-repeat;
+            position: center center;
+        }
+    }
+
+    &__details {
+        background: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2rem;
+
+        h3 {
+            color: $color-blue;
+            font-size: 1.2em;
+            margin: 0 0 0.6em;
+        }
+
+        p {
+            color: #212121;
+            font-size: 0.9em;
+            margin: 0;
+        }
+    }
+}

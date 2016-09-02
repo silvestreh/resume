@@ -43,3 +43,19 @@ $big-desktop-width: 1440px;
         @content;
     }
 }
+
+@mixin paragraph-decor {
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+        margin-left: 0.5rem;
+        background: {
+            image: url('/static/svg/decor-small.svg');
+            repeat: no-repeat;
+            size: 1rem 1rem;
+        }
+    }
+}

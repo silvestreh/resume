@@ -1,0 +1,33 @@
+{
+    "resource": "Projects",
+    "data": [
+        {
+            "title": "Atom Material UI",
+            "poster": "/static/svg/projects/amu.svg",
+            "description": {
+                "short": "A Material Design-inspired theme for Github's Atom."
+            }
+        },
+        {
+            "title": "OnScreen();",
+            "poster": "/static/svg/projects/onscreen.svg",
+            "description": {
+                "short": "A light library that checks when elements enter or leave the viewport."
+            }
+        },
+        {
+            "title": "Binary LMS",
+            "poster": "/static/svg/projects/binary.svg",
+            "description": {
+                "short": "A content management system designed for the music industry."
+            }
+        },
+        {
+            "title": "Résumé",
+            "poster": "/static/svg/projects/resume.svg",
+            "description": {
+                "short": "A Vue.js-powered personal portfolio. You're looking at it."
+            }
+        }
+    ]
+}
