@@ -1,9 +1,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d649f2d710f64a3082a69e4b0088d4a0)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=silvestreh/resume&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/d649f2d710f64a3082a69e4b0088d4a0)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=silvestreh/resume&amp;utm_campaign=Badge_Coverage)
+[![codecov](https://codecov.io/gh/silvestreh/resume/branch/master/graph/badge.svg)](https://codecov.io/gh/silvestreh/resume)
 
-# resume
+# Résumé
 
-> A personal resume/portfolio site
+> A personal résumé/portfolio site
 
 ## Build Setup
 
@@ -16,12 +16,6 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
 
 # run all tests
 npm test
