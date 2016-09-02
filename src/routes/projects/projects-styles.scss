@@ -25,6 +25,10 @@
             color: $color-blue;
             @include span(3 of 12);
 
+            @include tablet {
+                @include span(4 of 12);
+            }
+
             @include phone {
                 text-align: left;
                 @include span(12 of 12);
@@ -37,6 +41,11 @@
             @include span(4 of 12);
             @include push(3);
             @include paragraph-decor;
+
+            @include tablet {
+                @include span(6 of 12);
+                @include push(4);
+            }
 
             @include phone {
                 @include span(12 of 12);
