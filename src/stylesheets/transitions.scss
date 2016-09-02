@@ -39,8 +39,11 @@
 
 .reveal-leave {
     position: absolute;
+    overflow: hidden;
     z-index: 0;
 }
+
+_:-ms-lang(x), .reveal-transition { animation: none; } 
 
 // Top-Center, Left-Bottom, Right-Bottom
 @keyframes reveal {
