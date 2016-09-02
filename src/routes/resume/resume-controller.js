@@ -6,6 +6,8 @@ import recommendation from 'components/recommendation';
 import fetchJSON from 'src/helpers/fetch-json';
 
 export default {
+    name: 'resume-section',
+
     components: {
         award,
         decor,
