@@ -27,7 +27,7 @@
         {
             "title": "Résumé",
             "poster": "/static/svg/projects/resume.svg",
-            "url": "http://silvestre.io",
+            "url": "https://github.com/silvestreh/resume",
             "description": {
                 "short": "A Vue.js-powered personal portfolio. You're looking at it."
             }
