@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/silvestreh/resume.svg?branch=master)](https://travis-ci.org/silvestreh/resume)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d649f2d710f64a3082a69e4b0088d4a0)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=silvestreh/resume&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/silvestreh/resume/branch/master/graph/badge.svg)](https://codecov.io/gh/silvestreh/resume)
 
