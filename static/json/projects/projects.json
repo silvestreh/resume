@@ -25,6 +25,38 @@
             }
         },
         {
+            "title": "KBjs",
+            "poster": "/static/svg/projects/kbjs.svg",
+            "url": "https://github.com/silvestreh/kbjs",
+            "description": {
+                "short": "A super simple, real-time, CMS for knowledge base sites written in JavaScript."
+            }
+        },
+        {
+            "title": "Webdev's To-do",
+            "poster": "/static/svg/projects/to-do.svg",
+            "url": "https://github.com/silvestreh/webdev-todo",
+            "description": {
+                "short": "A real-time To-Do Node app with user authentication and transactional emails."
+            }
+        },
+        {
+            "title": "Feathers Blob",
+            "poster": "/static/svg/projects/feathers-blob.svg",
+            "url": "https://github.com/feathersjs/feathers-blob",
+            "description": {
+                "short": "Added support for S3 params to Feathers' blob service that handles uploads."
+            }
+        },
+        {
+            "title": "Rollup Starter",
+            "poster": "/static/svg/projects/rollup-starter.svg",
+            "url": "https://github.com/rollup/rollup-starter-project",
+            "description": {
+                "short": "Added coverage support to this sample project for packages built using rollup."
+            }
+        },
+        {
             "title": "Résumé",
             "poster": "/static/svg/projects/resume.svg",
             "url": "https://github.com/silvestreh/resume",
