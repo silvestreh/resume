@@ -78,9 +78,17 @@
         }
     }
 
-    + .navigation {
+    + div .navigation {
         .navigation__toggler {
             background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .hamburger-inner {
+            background-color: rgba(255, 255, 255, 0.5);
+
+            &::before, &::after {
+                background-color: rgba(255, 255, 255, 0.5);
+            }
         }
     }
 }

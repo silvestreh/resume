@@ -40,6 +40,11 @@
         opacity: 0.25;
         z-index: 0;
     }
+
+    + div .navigation {
+        transform: translateX(200%);
+        opacity: 0;
+    }
 }
 
 .home-nav {
@@ -76,11 +81,6 @@
             opacity: 0.5;
         }
     }
-}
-
-.home + .navigation {
-    transform: translateX(200%);
-    opacity: 0;
 }
 
 .main-footer {

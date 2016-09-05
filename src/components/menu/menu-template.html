@@ -1,10 +1,13 @@
-<div class="navigation" transition="slide">
-    <button class="navigation__toggler hamburger hamburger--spin" :class="{ 'is-active': showMenuItems }" @click="toggleMenu" type="button">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-    <nav class="navigation__nav" v-if="showMenuItems" transition="fade">
-        <a v-for="section in sections" class="navigation__nav__item" v-link="{ path: section.path }">{{ section.name }}</a>
-    </nav>
+<div>
+    <div class="overlay" @click="hideMenu" :class="{ 'overlay--is-visible': showMenuItems }"></div>
+    <div class="navigation" transition="slide">
+        <button class="navigation__toggler hamburger hamburger--spin" :class="{ 'is-active': showMenuItems }" @click="toggleMenu" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <nav class="navigation__nav" v-if="showMenuItems" transition="fade">
+            <a v-for="section in sections" class="navigation__nav__item" v-link="{ path: section.path }">{{ section.name }}</a>
+        </nav>
+    </div>
 </div>
