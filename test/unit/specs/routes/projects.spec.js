@@ -40,7 +40,7 @@ describe('Projects route', () => {
         projects.ready.apply(instance);
 
         setTimeout(() => {
-            expect(instance.projects.length).to.equal(4);
+            expect(instance.projects.length).to.equal(8);
             done();
         }, 1000);
     });
