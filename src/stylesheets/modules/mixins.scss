@@ -59,3 +59,25 @@ $big-desktop-width: 1440px;
         }
     }
 }
+
+@mixin film-grain {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        animation: grain 5s steps(10) infinite;
+        content: '';
+        position: fixed;
+        width: 300%;
+        height: 300%;
+        left: -100%;
+        top: -100%;
+        opacity: 0.35;
+        pointer-events: none;
+        z-index: 100;
+        background: {
+            color: transparent;
+            image: url('/static/raster/noise.png');
+        }
+    }
+}
