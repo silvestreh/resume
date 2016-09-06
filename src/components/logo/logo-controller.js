@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 function eventHandler(e) {
     const eX = e.offsetX;
     const eY = e.offsetY;
@@ -16,12 +18,12 @@ function eventHandler(e) {
 export default {
     ready() {
         document.querySelector('.logo')
-            .addEventListener('mousemove', eventHandler);
+            .addEventListener('mousemove', _.debounce(eventHandler, 100));
     },
 
     beforeDestroy() {
         document.querySelector('.logo')
-            .removeEventListener('mousemove', eventHandler);
+            .removeEventListener('mousemove', _.debounce(eventHandler, 100));
     },
 };
 
