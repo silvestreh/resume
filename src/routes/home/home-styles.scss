@@ -72,6 +72,7 @@
 
     @include phone {
         transform: none;
+        margin-top: 0;
     }
 
     &__item {
