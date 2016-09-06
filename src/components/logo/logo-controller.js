@@ -11,19 +11,19 @@ function eventHandler(e) {
     const name = document.querySelector('.name');
     const title = document.querySelector('.title');
 
-    name.style.transform = `rotateX(${posX}deg) rotateY(${posY}deg) translate3d(-50%, -50%, 2rem)`;
-    title.style.transform = `rotateX(${posX}deg) rotateY(${posY}deg) translate3d(-50%, -50%, -2rem)`;
+    name.style.transform = `rotateX(${posX}deg) rotateY(${posY}deg) translate3d(-50%, -50%, 3rem)`;
+    title.style.transform = `rotateX(${posX}deg) rotateY(${posY}deg) translate3d(-50%, -50%, -3rem)`;
 }
 
 export default {
     ready() {
         document.querySelector('.logo')
-            .addEventListener('mousemove', _.debounce(eventHandler, 100));
+            .addEventListener('mousemove', eventHandler);
     },
 
     beforeDestroy() {
         document.querySelector('.logo')
-            .removeEventListener('mousemove', _.debounce(eventHandler, 100));
+            .removeEventListener('mousemove', eventHandler);
     },
 };
 
