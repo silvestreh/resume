@@ -11,28 +11,28 @@
         // size: 100% auto;
     }
 
-    &::after {
-        // animation: grain 5s steps(10) infinite;
-        content: '';
-        position: fixed;
-        width: 300%;
-        height: 300%;
-        left: -100%;
-        top: -100%;
-        opacity: 0.35;
-        pointer-events: none;
-        z-index: 100;
-        background: {
-            color: transparent;
-            image: url('/static/raster/noise.png');
-        }
-    }
+    // &::after {
+    //     // animation: grain 5s steps(10) infinite;
+    //     content: '';
+    //     position: fixed;
+    //     width: 300%;
+    //     height: 300%;
+    //     left: -100%;
+    //     top: -100%;
+    //     opacity: 0.35;
+    //     pointer-events: none;
+    //     z-index: 100;
+    //     background: {
+    //         color: transparent;
+    //         image: url('/static/raster/noise.png');
+    //     }
+    // }
 
     video {
         @extend .animated;
         @extend .slideInUp;
         animation-duration: 5s;
-        pointer-events: none;
+        // pointer-events: none;
         position: fixed;
         bottom: 0;
         left: 0;

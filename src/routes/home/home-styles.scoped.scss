@@ -3,25 +3,6 @@
 .home {
     width: 100vw;
     height: 100vh;
-
-    svg {
-        display: block;
-        margin: auto;
-        max-height: 85%;
-        margin-top: 2rem;
-        position: relative;
-        z-index: 10;
-
-        @include phone {
-            max-width: 80%;
-            max-height: none;
-            margin-bottom: 5rem;
-        }
-
-        @include tablet {
-            max-width: 80%;
-        }
-    }
 }
 // section {
 //     height: 100vh;
