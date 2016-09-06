@@ -12,7 +12,7 @@
     }
 
     &::after {
-        animation: grain 5s steps(10) infinite;
+        // animation: grain 5s steps(10) infinite;
         content: '';
         position: fixed;
         width: 300%;
