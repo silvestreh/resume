@@ -1,0 +1,8 @@
+{
+    "title": "OnScreen();",
+    "poster": "/static/svg/projects/onscreen.svg",
+    "description": {
+        "short": "A light library that checks when elements enter or leave the viewport.",
+        "long": ""
+    }
+}

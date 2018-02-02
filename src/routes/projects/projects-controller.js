@@ -1,5 +1,5 @@
-import fetchJSON from 'src/helpers/fetch-json';
 import project from 'components/project';
+import projectsJson from '../../json/projects/projects.json';
 
 export default {
     name: 'projects-section',
@@ -10,11 +10,7 @@ export default {
 
     data() {
         return {
-            projects: [],
+            projects: projectsJson.data,
         };
-    },
-
-    ready() {
-        fetchJSON(this, 'projects/projects');
     },
 };

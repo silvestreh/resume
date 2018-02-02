@@ -1,0 +1,15 @@
+{
+    "resource": "Awards",
+    "data": [{
+        "award": {
+            "title": "Best Design",
+            "badge": "/static/raster/tnw-startup-awards@2x.png"
+        },
+        "description": "<p>The Next Web awarded The Fan Machine \"Best Design\" during their LatAm Startup Awards.</p><p>I was responsible for The Fan Machine's design and frontend code at the time.</p>",
+        "date": "2014",
+        "company": {
+            "name": "The Next Web",
+            "logo": "/static/svg/logos/tnw.svg"
+        }
+    }]
+}

@@ -1,0 +1,20 @@
+{
+    "resource": "Recommendations",
+    "data": [{
+        "quote": "<p>We've worked with Silvestre several times and we've always been very happy with his work. Great communication. Excellent skills.</p>",
+        "author": "Erlend Wilhelmsen",
+        "company": "Fabric Labs"
+    }, {
+        "quote": "<p>We hired Silvestre to create application icons and splash screen artwork for PrometheanFX. He also designed and built the DAM Entertainment website. Silvestre worked hard, was open to feedback, and had an extremely fast turn-around.</p><p>I was so impressed with his work ethic and the quality of his work that I have referred him to other companies which have also hired him, such as Last Legion Games. I highly endorse Silvestre for icon, graphic design, and website work.</p>",
+        "author": "Dustin McCartney",
+        "company": "DAM Entertainment"
+    }, {
+        "quote": "<p>I hired Silvestre to do the graphic icons for Echo Chamber, a data mining application for games from http://www.jenkinssoftware.com</p><p>Given a Word document describing the icons I needed, Silvestre quickly and professionally responded, providing a preliminary set of icons in a short-time frame at an affordable cost. Once I approved the preliminary icons, Silvestre made customized versions for different icon sizes. I was pleased with this extra effort, which I did not originally expect.<p><p>He was responsive to my feedback, and offered to fix/redo icons as needed at no extra charge. I would have preferred if Slivestre had not renamed the icon filenames, since I had to update the C++ to match. Other than that, the experience was entirely positive.</p><p>I like contractors that I can assign work to and not have to spend a lot of time managing or explaining small details. Silvestre fit that bill and did a good job in a short time at a good cost.</p>",
+        "author": "Kevin Jenkins",
+        "company": "Jenkins Software"
+    }, {
+        "quote": "<p>Silvestre has a tremendous ability to produce simple, communicative and esthetically pleasing icons even with an aggressive timeframe. Logo concepts he has produced for me have been diverse and again, rich in messaging while appealing to the eye. I'd have no hesitation in working with him over and over again, nor recommending his work to others.</p>",
+        "author": "Mike Bowie",
+        "company": "Buzmo Solutions"
+    }]
+}

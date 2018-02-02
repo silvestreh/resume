@@ -1,0 +1,8 @@
+{
+    "title": "Atom Material UI",
+    "poster": "/static/svg/projects/amu.svg",
+    "description": {
+        "short": "A Material Design-inspired theme for Github's Atom.",
+        "long": ""
+    }
+}

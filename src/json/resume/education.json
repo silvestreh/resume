@@ -1,0 +1,20 @@
+{
+    "resource": "Education",
+    "data": [{
+        "degree": "Visual Communication & Design",
+        "school": "Universidad Católica de La Plata",
+        "description": "<p>While attending UCALP, I studied visual communication, gestalt psychology, color theory, and typography.</p><p>The career's main focus is print design, so I also learnt about the different print systems, ink types, and paper. Luckily for me, I always have had an interest in user interfaces and computer programming which led me to focus on my professional career as front-end developer.</p>",
+        "date": {
+            "from": "2004",
+            "to": "2010"
+        }
+    }, {
+        "degree": "Communication, Arts & Design",
+        "school": "Escuela de Bellas Artes",
+        "description": "<p>My highschool education had a strong base in fine arts and music. While attending Escuela de Bellas Artes I specialized in the musical branch but I also took design and marketing classes.</p><p>I graduated in 2001 and received my Communication, Arts & Design diploma.</p>",
+        "date": {
+            "from": "1997",
+            "to": "2001"
+        }
+    }]
+}
